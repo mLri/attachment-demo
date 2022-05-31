@@ -5,9 +5,9 @@ import SelectComp from './selectComp'
 const { useState } = require('react')
 
 function App() {
-  const [universitySelect, setUniversitySelect] = useState([''])
-  const [campusSelect, setCampusSelect] = useState([{ parent_index: 0, position: 0, value: '' }])
-  const [facultySelect, setFacultySelect] = useState([''])
+  // const [universitySelect, setUniversitySelect] = useState([''])
+  // const [campusSelect, setCampusSelect] = useState([{ parent_index: 0, position: 0, value: '' }])
+  // const [facultySelect, setFacultySelect] = useState([''])
 
   const [universityList, setUniversityList] = useState(['univer01', 'univer02', 'univer03'])
   const [campusList, setCampusList] = useState(['campus01', 'campus02', 'campus03'])
